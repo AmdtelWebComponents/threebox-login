@@ -13,7 +13,7 @@
 
   <script type="module">
     import { html, render } from 'lit-html';
-    import '../threebox-login.js';
+    import './threebox-login.js';
 
     render(
       html`
@@ -22,5 +22,7 @@
       document.querySelector('#demo')
     );
   </script>
+  <!-- Load 3box profile library to interact with user profiles -->
+  <script src="https://unpkg.com/3box/dist/3box.min.js"></script>
 </body>
 </html>
